@@ -1579,7 +1579,7 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					</dateFormatLength>
 					<dateFormatLength type="short">
 						<dateFormat>
-							<pattern>y/M/d GGGGG</pattern>
+							<pattern>y/MM/dd GGGGG</pattern>
 							<datetimeSkeleton>GGGGGyMd</datetimeSkeleton>
 						</dateFormat>
 					</dateFormatLength>
@@ -1646,8 +1646,8 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 						<dateFormatItem id="EHms">E H:mm:ss</dateFormatItem>
 						<dateFormatItem id="Gy">y G</dateFormatItem>
 						<dateFormatItem id="GyM">y/M G</dateFormatItem>
-						<dateFormatItem id="GyMd">M/d/y GGGGG</dateFormatItem>
-						<dateFormatItem id="GyMEd">E، y/M/d G</dateFormatItem>
+						<dateFormatItem id="GyMd">MM/dd/y GGGGG</dateFormatItem>
+						<dateFormatItem id="GyMEd">E، y/MM/dd G</dateFormatItem>
 						<dateFormatItem id="GyMMM">MMM y G</dateFormatItem>
 						<dateFormatItem id="GyMMMd">d MMM y G</dateFormatItem>
 						<dateFormatItem id="GyMMMEd">E d MMM y G</dateFormatItem>
@@ -1661,8 +1661,8 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 						<dateFormatItem id="hv">↑↑↑</dateFormatItem>
 						<dateFormatItem id="Hv">سHH v</dateFormatItem>
 						<dateFormatItem id="M">↑↑↑</dateFormatItem>
-						<dateFormatItem id="Md">M/d</dateFormatItem>
-						<dateFormatItem id="MEd">E M/d</dateFormatItem>
+						<dateFormatItem id="Md">MM/dd</dateFormatItem>
+						<dateFormatItem id="MEd">E MM/dd</dateFormatItem>
 						<dateFormatItem id="MMM">↑↑↑</dateFormatItem>
 						<dateFormatItem id="MMMd">d LLL</dateFormatItem>
 						<dateFormatItem id="MMMEd">E d LLL</dateFormatItem>
@@ -1672,8 +1672,8 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 						<dateFormatItem id="y">y G</dateFormatItem>
 						<dateFormatItem id="yyyy">y G</dateFormatItem>
 						<dateFormatItem id="yyyyM">y/M GGGGG</dateFormatItem>
-						<dateFormatItem id="yyyyMd">y/M/d GGGGG</dateFormatItem>
-						<dateFormatItem id="yyyyMEd">E y/M/d GGGGG</dateFormatItem>
+						<dateFormatItem id="yyyyMd">y/MM/dd GGGGG</dateFormatItem>
+						<dateFormatItem id="yyyyMEd">E y/MM/dd GGGGG</dateFormatItem>
 						<dateFormatItem id="yyyyMMM">MMM y G</dateFormatItem>
 						<dateFormatItem id="yyyyMMMd">d MMM y G</dateFormatItem>
 						<dateFormatItem id="yyyyMMMEd">E d MMM y G</dateFormatItem>
@@ -1709,16 +1709,16 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 							<greatestDifference id="y">y/M تا y/M GGGGG</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="GyMd">
-							<greatestDifference id="d">y/M/d تا y/M/d GGGGG</greatestDifference>
-							<greatestDifference id="G">y/M/d GGGGG تا y/M/d GGGGG</greatestDifference>
-							<greatestDifference id="M">y/M/d تا y/M/d GGGGG</greatestDifference>
-							<greatestDifference id="y">y/M/d تا y/M/d GGGGG</greatestDifference>
+							<greatestDifference id="d">y/MM/dd تا y/MM/dd GGGGG</greatestDifference>
+							<greatestDifference id="G">y/MM/dd GGGGG تا y/MM/dd GGGGG</greatestDifference>
+							<greatestDifference id="M">y/MM/dd تا y/MM/dd GGGGG</greatestDifference>
+							<greatestDifference id="y">y/MM/dd تا y/MM/dd GGGGG</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="GyMEd">
-							<greatestDifference id="d">E y/M/d تا E y/M/d GGGGG</greatestDifference>
-							<greatestDifference id="G">E y/M/d GGGGG تا E y/M/d GGGGG</greatestDifference>
-							<greatestDifference id="M">E y/M/d تا E y/M/d GGGGG</greatestDifference>
-							<greatestDifference id="y">E y/M/d تا E y/M/d GGGGG</greatestDifference>
+							<greatestDifference id="d">E y/MM/dd تا E y/MM/dd GGGGG</greatestDifference>
+							<greatestDifference id="G">E y/MM/dd GGGGG تا E y/MM/dd GGGGG</greatestDifference>
+							<greatestDifference id="M">E y/MM/dd تا E y/MM/dd GGGGG</greatestDifference>
+							<greatestDifference id="y">E y/MM/dd تا E y/MM/dd GGGGG</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="GyMMM">
 							<greatestDifference id="G">MMM y G تا MMM y G</greatestDifference>
@@ -1773,12 +1773,12 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 							<greatestDifference id="M">M تا M</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="Md">
-							<greatestDifference id="d">M/d تا M/d</greatestDifference>
-							<greatestDifference id="M">M/d تا M/d</greatestDifference>
+							<greatestDifference id="d">MM/dd تا MM/dd</greatestDifference>
+							<greatestDifference id="M">MM/dd تا MM/dd</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="MEd">
-							<greatestDifference id="d">E M/d تا E M/d</greatestDifference>
-							<greatestDifference id="M">E M/d تا E M/d</greatestDifference>
+							<greatestDifference id="d">E MM/dd تا E MM/dd</greatestDifference>
+							<greatestDifference id="M">E MM/dd تا E MM/dd</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="MMM">
 							<greatestDifference id="M">LLL تا LLL</greatestDifference>
@@ -1799,14 +1799,14 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 							<greatestDifference id="y">y/M تا y/M GGGGG</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMd">
-							<greatestDifference id="d">y/M/d تا y/M/d GGGGG</greatestDifference>
-							<greatestDifference id="M">y/M/d تا y/M/d GGGGG</greatestDifference>
-							<greatestDifference id="y">y/M/d تا y/M/d GGGGG</greatestDifference>
+							<greatestDifference id="d">y/MM/dd تا y/MM/dd GGGGG</greatestDifference>
+							<greatestDifference id="M">y/MM/dd تا y/MM/dd GGGGG</greatestDifference>
+							<greatestDifference id="y">y/MM/dd تا y/MM/dd GGGGG</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMEd">
-							<greatestDifference id="d">E y/M/d تا E y/M/d GGGGG</greatestDifference>
-							<greatestDifference id="M">E y/M/d تا E y/M/d GGGGG</greatestDifference>
-							<greatestDifference id="y">E y/M/d تا E y/M/d GGGGG</greatestDifference>
+							<greatestDifference id="d">E y/MM/dd تا E y/MM/dd GGGGG</greatestDifference>
+							<greatestDifference id="M">E y/MM/dd تا E y/MM/dd GGGGG</greatestDifference>
+							<greatestDifference id="y">E y/MM/dd تا E y/MM/dd GGGGG</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMMM">
 							<greatestDifference id="M">LLL تا MMM y G</greatestDifference>
@@ -2147,7 +2147,7 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					</dateFormatLength>
 					<dateFormatLength type="short">
 						<dateFormat>
-							<pattern>y/M/d</pattern>
+							<pattern>y/MM/dd</pattern>
 							<datetimeSkeleton>yMd</datetimeSkeleton>
 						</dateFormat>
 					</dateFormatLength>
@@ -2240,8 +2240,8 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 						<dateFormatItem id="EHms">E H:mm:ss</dateFormatItem>
 						<dateFormatItem id="Gy">y G</dateFormatItem>
 						<dateFormatItem id="GyM">y/M G</dateFormatItem>
-						<dateFormatItem id="GyMd">y/M/d GGGGG</dateFormatItem>
-						<dateFormatItem id="GyMEd">E، y/M/d G</dateFormatItem>
+						<dateFormatItem id="GyMd">y/MM/dd GGGGG</dateFormatItem>
+						<dateFormatItem id="GyMEd">E، y/MM/dd G</dateFormatItem>
 						<dateFormatItem id="GyMMM">MMM y G</dateFormatItem>
 						<dateFormatItem id="GyMMMd">d MMM y G</dateFormatItem>
 						<dateFormatItem id="GyMMMEd">E d MMM y G</dateFormatItem>
@@ -2259,8 +2259,8 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 						<dateFormatItem id="hv">↑↑↑</dateFormatItem>
 						<dateFormatItem id="Hv">سHH v</dateFormatItem>
 						<dateFormatItem id="M">↑↑↑</dateFormatItem>
-						<dateFormatItem id="Md">M/d</dateFormatItem>
-						<dateFormatItem id="MEd">E M/d</dateFormatItem>
+						<dateFormatItem id="Md">MM/dd</dateFormatItem>
+						<dateFormatItem id="MEd">E MM/dd</dateFormatItem>
 						<dateFormatItem id="MMM">↑↑↑</dateFormatItem>
 						<dateFormatItem id="MMMd">d LLL</dateFormatItem>
 						<dateFormatItem id="MMMEd">E d LLL</dateFormatItem>
@@ -2272,8 +2272,8 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 						<dateFormatItem id="ms">m:ss</dateFormatItem>
 						<dateFormatItem id="y">↑↑↑</dateFormatItem>
 						<dateFormatItem id="yM">y/M</dateFormatItem>
-						<dateFormatItem id="yMd">y/M/d</dateFormatItem>
-						<dateFormatItem id="yMEd">E y/M/d</dateFormatItem>
+						<dateFormatItem id="yMd">y/MM/dd</dateFormatItem>
+						<dateFormatItem id="yMEd">E y/MM/dd</dateFormatItem>
 						<dateFormatItem id="yMMM">MMM y</dateFormatItem>
 						<dateFormatItem id="yMMMd">d MMM y</dateFormatItem>
 						<dateFormatItem id="yMMMEd">E d MMM y</dateFormatItem>
@@ -2312,16 +2312,16 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 							<greatestDifference id="y">y/M تا y/M GGGGG</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="GyMd">
-							<greatestDifference id="d">y/M/d تا y/M/d GGGGG</greatestDifference>
-							<greatestDifference id="G">y/M/d GGGGG تا y/M/d GGGGG</greatestDifference>
-							<greatestDifference id="M">y/M/d تا y/M/d GGGGG</greatestDifference>
-							<greatestDifference id="y">y/M/d تا y/M/d GGGGG</greatestDifference>
+							<greatestDifference id="d">y/MM/dd تا y/MM/dd GGGGG</greatestDifference>
+							<greatestDifference id="G">y/MM/dd GGGGG تا y/MM/dd GGGGG</greatestDifference>
+							<greatestDifference id="M">y/MM/dd تا y/MM/dd GGGGG</greatestDifference>
+							<greatestDifference id="y">y/MM/dd تا y/MM/dd GGGGG</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="GyMEd">
-							<greatestDifference id="d">E y/M/d تا E y/M/d GGGGG</greatestDifference>
-							<greatestDifference id="G">E y/M/d GGGGG تا E y/M/d GGGGG</greatestDifference>
-							<greatestDifference id="M">E y/M/d تا E y/M/d GGGGG</greatestDifference>
-							<greatestDifference id="y">E y/M/d تا E y/M/d GGGGG</greatestDifference>
+							<greatestDifference id="d">E y/MM/dd تا E y/MM/dd GGGGG</greatestDifference>
+							<greatestDifference id="G">E y/MM/dd GGGGG تا E y/MM/dd GGGGG</greatestDifference>
+							<greatestDifference id="M">E y/MM/dd تا E y/MM/dd GGGGG</greatestDifference>
+							<greatestDifference id="y">E y/MM/dd تا E y/MM/dd GGGGG</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="GyMMM">
 							<greatestDifference id="G">MMM y G تا MMM y G</greatestDifference>
@@ -2376,12 +2376,12 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 							<greatestDifference id="M">M تا M</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="Md">
-							<greatestDifference id="d">M/d تا M/d</greatestDifference>
-							<greatestDifference id="M">M/d تا M/d</greatestDifference>
+							<greatestDifference id="d">MM/dd تا MM/dd</greatestDifference>
+							<greatestDifference id="M">MM/dd تا MM/dd</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="MEd">
-							<greatestDifference id="d">E M/d تا E M/d</greatestDifference>
-							<greatestDifference id="M">E M/d تا E M/d</greatestDifference>
+							<greatestDifference id="d">E MM/dd تا E MM/dd</greatestDifference>
+							<greatestDifference id="M">E MM/dd تا E MM/dd</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="MMM">
 							<greatestDifference id="M">LLL تا LLL</greatestDifference>
@@ -2402,14 +2402,14 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 							<greatestDifference id="y">y/M تا y/M</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMd">
-							<greatestDifference id="d">y/M/d تا y/M/d</greatestDifference>
-							<greatestDifference id="M">y/M/d تا y/M/d</greatestDifference>
-							<greatestDifference id="y">y/M/d تا y/M/d</greatestDifference>
+							<greatestDifference id="d">y/MM/dd تا y/MM/dd</greatestDifference>
+							<greatestDifference id="M">y/MM/dd تا y/MM/dd</greatestDifference>
+							<greatestDifference id="y">y/MM/dd تا y/MM/dd</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMEd">
-							<greatestDifference id="d">E y/M/d تا E y/M/d</greatestDifference>
-							<greatestDifference id="M">E y/M/d تا E y/M/d</greatestDifference>
-							<greatestDifference id="y">E y/M/d تا E y/M/d</greatestDifference>
+							<greatestDifference id="d">E y/MM/dd تا E y/MM/dd</greatestDifference>
+							<greatestDifference id="M">E y/MM/dd تا E y/MM/dd</greatestDifference>
+							<greatestDifference id="y">E y/MM/dd تا E y/MM/dd</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMMM">
 							<greatestDifference id="M">MMM تا MMM y</greatestDifference>
@@ -2752,7 +2752,7 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					</dateFormatLength>
 					<dateFormatLength type="short">
 						<dateFormat>
-							<pattern>y/M/d G</pattern>
+							<pattern>y/MM/dd G</pattern>
 							<datetimeSkeleton>GyMd</datetimeSkeleton>
 						</dateFormat>
 					</dateFormatLength>
@@ -2775,7 +2775,7 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 						<dateFormatItem id="Gy">↑↑↑</dateFormatItem>
 						<dateFormatItem id="GyM">y/M G</dateFormatItem>
 						<dateFormatItem id="GyMd">↑↑↑</dateFormatItem>
-						<dateFormatItem id="GyMEd">E، y/M/d G</dateFormatItem>
+						<dateFormatItem id="GyMEd">E، y/MM/dd G</dateFormatItem>
 						<dateFormatItem id="GyMMM">↑↑↑</dateFormatItem>
 						<dateFormatItem id="GyMMMd">↑↑↑</dateFormatItem>
 						<dateFormatItem id="GyMMMEd">↑↑↑</dateFormatItem>
@@ -2797,7 +2797,7 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 						<dateFormatItem id="ms">mm:ss</dateFormatItem>
 						<dateFormatItem id="y">↑↑↑</dateFormatItem>
 						<dateFormatItem id="yM">y/M G</dateFormatItem>
-						<dateFormatItem id="yMEd">E y/M/d G</dateFormatItem>
+						<dateFormatItem id="yMEd">E y/MM/dd G</dateFormatItem>
 						<dateFormatItem id="yMMM">MMM y</dateFormatItem>
 						<dateFormatItem id="yMMMEd">E d MMM y</dateFormatItem>
 						<dateFormatItem id="yMMMM">MMMM y</dateFormatItem>
@@ -3080,7 +3080,7 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					</dateFormatLength>
 					<dateFormatLength type="short">
 						<dateFormat>
-							<pattern>y/M/d</pattern>
+							<pattern>y/MM/dd</pattern>
 							<datetimeSkeleton>yMd</datetimeSkeleton>
 						</dateFormat>
 					</dateFormatLength>
@@ -3126,8 +3126,8 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 						<dateFormatItem id="y">y</dateFormatItem>
 						<dateFormatItem id="yyyy">y</dateFormatItem>
 						<dateFormatItem id="yyyyM">y/M</dateFormatItem>
-						<dateFormatItem id="yyyyMd">y/M/d</dateFormatItem>
-						<dateFormatItem id="yyyyMEd">E y/M/d</dateFormatItem>
+						<dateFormatItem id="yyyyMd">y/MM/dd</dateFormatItem>
+						<dateFormatItem id="yyyyMEd">E y/MM/dd</dateFormatItem>
 						<dateFormatItem id="yyyyMMM">MMM y</dateFormatItem>
 						<dateFormatItem id="yyyyMMMd">d MMM y</dateFormatItem>
 						<dateFormatItem id="yyyyMMMEd">E d MMM y</dateFormatItem>
@@ -3236,14 +3236,14 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 							<greatestDifference id="y">y/M تا y/M</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMd">
-							<greatestDifference id="d">y/M/d تا y/M/d</greatestDifference>
-							<greatestDifference id="M">y/M/d تا y/M/d</greatestDifference>
-							<greatestDifference id="y">y/M/d تا y/M/d</greatestDifference>
+							<greatestDifference id="d">y/MM/dd تا y/MM/dd</greatestDifference>
+							<greatestDifference id="M">y/MM/dd تا y/MM/dd</greatestDifference>
+							<greatestDifference id="y">y/MM/dd تا y/MM/dd</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMEd">
-							<greatestDifference id="d">E y/M/d تا E y/M/d</greatestDifference>
-							<greatestDifference id="M">E y/M/d تا E y/M/d</greatestDifference>
-							<greatestDifference id="y">E y/M/d تا E y/M/d</greatestDifference>
+							<greatestDifference id="d">E y/MM/dd تا E y/MM/dd</greatestDifference>
+							<greatestDifference id="M">E y/MM/dd تا E y/MM/dd</greatestDifference>
+							<greatestDifference id="y">E y/MM/dd تا E y/MM/dd</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMMM">
 							<greatestDifference id="M">LLL تا MMM y</greatestDifference>
